@@ -1,0 +1,96 @@
+baseURL = "https://biomachinelearning.net/"
+title = "BioMachineLearning"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+  
+[params]
+  env = "production"
+  title = "Biomachinelearning - Michael Schmuker"
+  description = "Science management, data science & AI expertise, consultancy."
+  author = "Michael Schmuker"
+  DateFormat = "January 2, 2006"
+
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  TocOpen = false
+
+  [params.label]
+    text = ""   # optional: "BioMachineLearning"
+    icon = "/images/bioML-logo.svg"
+    iconHeight = 28
+    
+  [params.profileMode]
+    enabled = true
+    title = "Michael Schmuker"
+    subtitle = "Science management and data science/AI expertise. Head of Information & Data Science at Helmholtz Association. Consulting on AI strategy, evaluation, and applied ML systems."
+    imageUrl = "images/Michael.png"
+    imageTitle = "Michael Schmuker"
+    imageWidth = 160
+    imageHeight = 160
+
+    [[params.profileMode.buttons]]
+      name = "Consulting"
+      url = "/consulting/"
+
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
+
+    [[params.profileMode.buttons]]
+      name = "Selected Work"
+      url = "/work/"
+
+    [[params.profileMode.buttons]]
+      name = "Contact"
+      url = "/contact/"
+
+  [[params.socialIcons]]
+    name = "linkedIn"
+    url = "https://linkedin.com/in/michaelschmuker"
+
+#  [[params.socialIcons]]
+#    name = "github"
+#    url = "https://github.com/YOURNAME"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:m.schmuker@biomachinelearning.net"
+
+  [[params.socialIcons]]
+    name = "googleScholar"
+    url = "https://scholar.google.com/citations?user=sUf4Zn4AAAAJ&hl=en&oi=ao"
+
+[menu]
+  [[menu.main]]
+    identifier = "consulting"
+    name = "Consulting"
+    url = "/consulting/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "work"
+    name = "Selected Work"
+    url = "/work/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
