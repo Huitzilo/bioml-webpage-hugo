@@ -1,4 +1,5 @@
-baseURL = "https://biomachinelearning.net/"
+baseURL = "https://huitzilo.github.io/bioml-webpage-hugo/"
+# later this should be baseURL = "https://biomachinelearning.net/"
 title = "BioMachineLearning"
 theme = "PaperMod"
 enableRobotsTXT = true
