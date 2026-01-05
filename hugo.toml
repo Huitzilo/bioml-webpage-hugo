@@ -27,7 +27,7 @@ enableRobotsTXT = true
 
   [params.label]
     text = ""   # optional: "BioMachineLearning"
-    icon = "images/biomllogo.svg"
+    icon = "images/BioML-logo.svg"
     iconHeight = 28
     
   [params.profileMode]
