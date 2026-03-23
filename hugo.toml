@@ -1,4 +1,5 @@
-baseURL = "https://huitzilo.github.io/bioml-webpage-hugo/"
+baseURL = "http://bioml.net"
+# for gh-pages only deployment this should be "https://huitzilo.github.io/bioml-webpage-hugo/"
 # later this should be baseURL = "https://biomachinelearning.net/"
 title = "BioMachineLearning"
 theme = "PaperMod"
