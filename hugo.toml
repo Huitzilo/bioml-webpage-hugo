@@ -41,19 +41,19 @@ enableRobotsTXT = true
 
     [[params.profileMode.buttons]]
       name = "Consulting"
-      url = "/consulting/"
+      url = "consulting/"
 
     [[params.profileMode.buttons]]
       name = "About"
-      url = "/about/"
+      url = "about/"
 
     [[params.profileMode.buttons]]
       name = "Selected Work"
-      url = "/work/"
+      url = "work/"
 
     [[params.profileMode.buttons]]
       name = "Contact"
-      url = "/contact/"
+      url = "contact/"
 
   [[params.socialIcons]]
     name = "linkedIn"
